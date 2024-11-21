@@ -15,6 +15,8 @@
 		7699B88040F8A987B510C191 /* libPods-muraPD-muraPDTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-muraPD-muraPDTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		CD5E5A410A6DFC3CC3B3E128 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A048AED3232D4474FB7A5704 /* PrivacyInfo.xcprivacy */; };
+		308BAABB12D04A729A1E74E5 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B8F943C1B53443B93DE7293 /* BootSplash.storyboard */; };
+		56933964FD02442BBB28EB8A /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC3E63B40D04375920C3ED2 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		89C6BE57DB24E9ADA2F236DE /* Pods-muraPD-muraPDTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muraPD-muraPDTests.release.xcconfig"; path = "Target Support Files/Pods-muraPD-muraPDTests/Pods-muraPD-muraPDTests.release.xcconfig"; sourceTree = "<group>"; };
 		A048AED3232D4474FB7A5704 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = muraPD/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		1B8F943C1B53443B93DE7293 /* BootSplash.storyboard */ = {isa = PBXFileReference; name = "BootSplash.storyboard"; path = "muraPD/BootSplash.storyboard"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7FC3E63B40D04375920C3ED2 /* Colors.xcassets */ = {isa = PBXFileReference; name = "Colors.xcassets"; path = "muraPD/Colors.xcassets"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = folder.assetcatalog; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
 				A048AED3232D4474FB7A5704 /* PrivacyInfo.xcprivacy */,
+				1B8F943C1B53443B93DE7293 /* BootSplash.storyboard */,
+				7FC3E63B40D04375920C3ED2 /* Colors.xcassets */,
 			);
 			name = muraPD;
 			sourceTree = "<group>";
@@ -249,6 +255,8 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				CD5E5A410A6DFC3CC3B3E128 /* PrivacyInfo.xcprivacy in Resources */,
+				308BAABB12D04A729A1E74E5 /* BootSplash.storyboard in Resources */,
+				56933964FD02442BBB28EB8A /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
