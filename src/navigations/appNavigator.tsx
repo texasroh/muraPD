@@ -5,7 +5,7 @@ export type AppStackParamList = {
   Login: undefined;
 };
 
-export const AppStack = createNativeStackNavigator();
+export const AppStack = createNativeStackNavigator<AppStackParamList>();
 
 const AppNavigator = () => {
   return (

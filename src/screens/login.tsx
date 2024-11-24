@@ -1,8 +1,12 @@
+import {NativeStackScreenProps} from '@react-navigation/native-stack';
 import React, {useState} from 'react';
 import {Button, TextInput, View} from 'react-native';
-import {AppLayout} from '../layouts/app-layout';
+import {AppLayout} from '../layouts/appLayout';
+import {AppStackParamList} from '../navigations/appNavigator';
 
-const LoginScreen = ({}) => {
+type LoginScreenProps = NativeStackScreenProps<AppStackParamList, 'Login'>;
+
+const LoginScreen = ({navigation}: LoginScreenProps) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
