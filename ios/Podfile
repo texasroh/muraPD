@@ -16,7 +16,8 @@ end
 
 target 'muraPD' do
   config = use_native_modules!
-
+  use_frameworks! :linkage => :static # for react-native-firebase sdk
+  $RNFirebaseAsStaticFramework = true # for react-native-firebase sdk
   use_react_native!(
     :path => config[:reactNativePath],
     # An absolute path to your application root.
