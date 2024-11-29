@@ -1,12 +1,13 @@
 import {NativeStackScreenProps} from '@react-navigation/native-stack';
 import React, {useState} from 'react';
-import {Button, TextInput, View} from 'react-native';
+import {Button, TextInput, useColorScheme, View} from 'react-native';
 import {AppLayout} from '../layouts/appLayout';
 import {AppStackParamList} from '../navigations/appNavigator';
 
 type LoginScreenProps = NativeStackScreenProps<AppStackParamList, 'Login'>;
 
 const LoginScreen = ({navigation}: LoginScreenProps) => {
+  useColorScheme()
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
